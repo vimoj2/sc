@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.0",
+    "canvas": "^1.6.7",
+    "express": "^4.15.4",
+    "express-fileupload": "^0.2.0",
+    "redis": "^2.8.0",
+    "sqlite": "^2.8.0",
+    "uuid": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "name": "shoes-customizer",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

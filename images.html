@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+    const data = ['base', 'footer'];
+    const imageId = '888c6fe5-e197-4bce-9912-607b0a085ce7';
+    data.forEach(item => {
+      const img = document.createElement('img');
+      img.src = `http://localhost:8000/image/${imageId}/${item}`
+      document.querySelector('body').appendChild(img);
+    })
+  </script>
+</body>
+</html>
