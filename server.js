@@ -15,7 +15,7 @@ const db = require('sqlite');
 Promise.resolve()
   .then(() => db.open(__dirname + '/db.sqlite', {Promise}))
   .catch(err => console.error(error.stack))
-  .finally(() => app.listen(8000))
+  .finally(() => app.listen(80))
   .finally(() => console.log(`server ready for request on 8000`));
 
 
